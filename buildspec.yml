@@ -1,0 +1,14 @@
+version: 0.2
+
+env:
+  parameter-store:
+    APP_ENV: "/app/dev/app_env"
+    API_URL: "/app/dev/api_url"
+  secrets-manager:
+    DB_PASSWORD: "app/prod/db_password"
+
+phases:
+  build:
+    commands:
+      - chmod +x app.sh
+      - ./app.sh
