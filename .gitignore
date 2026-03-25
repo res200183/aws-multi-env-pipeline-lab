@@ -1,0 +1,27 @@
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Environment variables
+.env
+.env.*
+
+# AWS
+.aws/
+
+# SSH keys
+*.pem
+
+# Node (на будущее)
+node_modules/
+
+# Python (на будущее)
+__pycache__/
+*.pyc
+
+# Build artifacts
+dist/
+build/
